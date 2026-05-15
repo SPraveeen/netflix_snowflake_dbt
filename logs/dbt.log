@@ -1,0 +1,29 @@
+[0m08:53:54.171992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C410BF97F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C40D912E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C412F63B10>]}
+
+
+============================== 08:53:54.176301 | 7559bf28-19a0-48c9-a0b7-1b2bf6d58fef ==============================
+[0m08:53:54.176301 [info ] [MainThread]: Running with dbt=1.11.10
+[0m08:53:54.176983 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\prave\\.dbt', 'invocation_command': 'dbt init nextflix', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m08:53:54.191209 [debug] [MainThread]: Starter project path: D:\netflix_snowflake_dbt\env\Lib\site-packages\dbt\include\starter_project
+[0m08:53:54.207304 [info ] [MainThread]: 
+Your new dbt project "nextflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:53:54.207764 [info ] [MainThread]: Setting up your profile.
+[0m08:55:49.971806 [info ] [MainThread]: Profile nextflix written to C:\Users\prave\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:55:49.974073 [debug] [MainThread]: Command `dbt init` succeeded at 08:55:49.973808 after 116.06 seconds
+[0m08:55:49.975300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C414099480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4132E1FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C413FF6F10>]}
+[0m08:55:49.976683 [debug] [MainThread]: Flushing usage events
+[0m08:55:51.335817 [debug] [MainThread]: An error was encountered while trying to flush usage events
