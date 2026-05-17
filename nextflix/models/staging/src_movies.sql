@@ -1,6 +1,6 @@
 with raw_movies as 
 (
-select * from movielens.raw.raw_movies
+select * from {{ sources('netflix', 'r_movies') }}
 )
 select 
 movieId as movie_id,
